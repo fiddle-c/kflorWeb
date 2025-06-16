@@ -1,0 +1,176 @@
+
+body { 
+	padding: 0 20px;
+}
+header {
+	animation: slideDown 0.5s forwards;
+	margin: 10px;
+}
+
+h2 {
+	font-size: 3em;
+}
+.intro-container {
+	display: flex;
+	flex-direction: row;
+	color: #07020D;
+	color: white;
+	background-color: #2F2F2F;
+	border-radius: 12px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+}
+.cell-container h1 { 
+	font-size: 4em;
+	line-height: 1.1;
+	color: #59D2FE;
+}
+.cell-container h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+		color: #CCCCCC;
+
+
+
+
+}
+.cell-container p {
+	line-height: 1.6;
+	color: #E0E0E0;
+}
+
+
+.cell-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 50%;
+	font-size: 1.3rem;
+
+}
+
+.intro-container .cell-container:nth-of-type(2) {
+	align-items: center;
+}
+
+.name-container h3 {
+	font-size: 2em;
+}
+
+.cell-container img {	
+	width: 100%;
+	max-width: 500px;
+	clip-path: circle();
+	justify-content: center;
+
+}
+
+@media (max-width: 600px) {
+	.intro-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.cell-container {
+		width: 100%;
+	}
+	.name-container h3 {
+		font-size: 1.5em;
+	}
+}
+
+
+
+.cell-container p {
+	font-size: 1.2em;
+	line-height: 1.5;
+}
+.cell-container a {
+  color: #07020D;
+  text-decoration: none;
+  font-weight: 500;
+  width: 100%;
+  max-width: 50px;
+}
+.footer-contact {
+	width: 100%;
+	border-top: 2px solid #59D2FE;
+
+}
+.icon-container a:hover {
+	color: #59D2FE;
+	transform: scale(1.5);
+
+}
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+
+.icon-item {
+width: 100%;
+max-width: 100px;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 10px;
+
+
+
+
+
+}
+.icon-container img {
+	width: 100%;
+	max-width: 30px;
+	filter: brightness(0) invert(1); /* make dark icons light if needed */
+	transition: transform 0.5s;
+	margin: 10px;
+}
+
+.icon-container a:hover img {
+	transform: scale(1.1);
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%)
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+	transform: translateX(-100%);
+  }
+  100% {
+	transform: translateX(0);
+  }
+}
