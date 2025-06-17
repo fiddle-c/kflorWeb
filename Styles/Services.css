@@ -2,7 +2,10 @@
 	padding: 40px 20px;
 	text-align: center;
 }
-
+.active {
+	color: #59D2FE;
+	font-weight: bold;
+}
 .services h2 {
 	color: white;
 	font-size: 2em;

@@ -1,7 +1,10 @@
 .work-history {
 	padding: 40px 20px;
 }
-
+.active {
+	color: #59D2FE;
+	font-weight: bold;
+}
 .work-history h2 {
 	color: white;
 	font-size: 2em;

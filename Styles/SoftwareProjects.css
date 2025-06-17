@@ -1,7 +1,10 @@
 body {
 	color: white;
 }
-
+.active {
+	color: #59D2FE;
+	font-weight: bold;
+}
 .grid-container {
 	display: grid;
 	flex-wrap: wrap;

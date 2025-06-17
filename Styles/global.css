@@ -13,7 +13,11 @@ border-radius: 12px;
 a {
 	flex-direction: row;
 	text-decoration: none;
-	color: #07020D;
+		text-decoration: none;
+		margin: 10px;
+		color: white;
+		
+
 }
 .nav-bar a:hover {
   transform: scale(1.15);
@@ -23,19 +27,15 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: right;
-	gap: 20px;
 	border-radius: 30px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	background: linear-gradient(0deg,rgba(107, 107, 107, 0.5) 0%, rgba(130, 130, 130, 0.5) 100%);
 	flex-wrap: wrap;
-	padding: 10px 20px;
 }
 
 .nav-bar a {
-	text-decoration: none;
 	font-size: 1em;
 	font-weight: 500;
-	color: white;
 
   transition: transform 0.2s ease
 }
