@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #2F2F2F;
 	font-family: 'Lucida Console', Monaco, monospace;
@@ -6,45 +10,46 @@ body {
 header {
 display: flex;
 color: #07020D;
-justify-content: center;
-border-radius: 12px;
+       justify-content: center;
+       border-radius: 12px;
 }
 
 a {
 	flex-direction: row;
 	text-decoration: none;
-		text-decoration: none;
-		margin: 10px;
-		color: white;
-		
+	text-decoration: none;
+
+color: white;
+
 
 }
 .nav-bar a:hover {
-  transform: scale(1.15);
+transform: scale(1.15);
+
 }
 
 .nav-bar{
-	display: flex;
-	flex-direction: row;
-	justify-content: right;
-	border-radius: 30px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	background: linear-gradient(0deg,rgba(107, 107, 107, 0.5) 0%, rgba(130, 130, 130, 0.5) 100%);
-	flex-wrap: wrap;
+display: flex;
+	 flex-direction: row;
+	 justify-content: right;
+	 border-radius: 30px;
+	 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+background: linear-gradient(0deg,rgba(107, 107, 107, 0.5) 0%, rgba(130, 130, 130, 0.5) 100%);
+	    flex-wrap: wrap;
 }
 
 .nav-bar a {
 	font-size: 1em;
-	font-weight: 500;
+	padding: 10px 20px;
+	transition: transform 0.2s ease;
 
-  transition: transform 0.2s ease
 }
 
 #page-wrapper {
 opacity: 1;
-  transition: opacity 0.5s ease;
+transition: opacity 0.5s ease;
 }
 
 #page-wrapper.fade-out {
-  opacity: 0;
+opacity: 0;
 }
